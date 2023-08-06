@@ -9,4 +9,4 @@ if [ "$1" ]; then
 fi
 
 # Compile the circuit
-circom ${CIRCUIT}.circom --r1cs --wasm --sym
+circom ${CIRCUIT}.circom --r1cs --wasm --sym -o build
